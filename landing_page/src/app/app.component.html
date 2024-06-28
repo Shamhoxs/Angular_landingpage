@@ -1,0 +1,36 @@
+<mat-toolbar color="primary" class="mat-elevation-z5">
+
+  <mat-toolbar-row>
+  <span>Logo</span>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+
+    </button>
+
+
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="example-container" style="background-color: rgb(255, 255, 255);" >
+  <mat-sidenav mode="side" opened style="background-color: rgb(0, 100, 167);">
+  <mat-nav-list style="width: 15vw; min-width: 200px;">
+      <a mat-list-item style="height: 60px;" ><mat-icon>dashboard</mat-icon>Dashboard</a>
+      <a mat-list-item style="height: 60px;"><mat-icon>account_box</mat-icon>Account</a>
+      <a mat-list-item style="height: 60px;"><mat-icon>add_shopping_cart</mat-icon>Shopping</a>
+      <a mat-list-item style="height: 60px;"><mat-icon>assessment</mat-icon>Statistics</a>
+      <a mat-list-item style="height: 60px;"><mat-icon>calendar_today</mat-icon>Calendar</a>
+      <a mat-list-item style="height: 60px;"><mat-icon>settings</mat-icon>Settings</a>
+
+    </mat-nav-list>
+</mat-sidenav>
+    <mat-sidenav-content>
+      <p  style="height:80vh;"></p>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
